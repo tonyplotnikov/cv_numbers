@@ -8,7 +8,6 @@ from tensorflow.keras.layers import Dense, Flatten
 x_train = x_train / 255.0
 x_test = x_test / 255.0
 
-# Шаг 2: Построение модели
 model = Sequential([
     Flatten(input_shape=(28, 28)),       # Преобразуем изображение 28x28 в вектор
     Dense(128, activation='relu'),       # Полносвязный слой с 128 нейронами и активацией ReLU

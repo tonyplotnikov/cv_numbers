@@ -8,6 +8,7 @@ from tensorflow.keras.models import load_model
 model = load_model('mnist_model.h5')
 # Если модель создавалась и обучалась ранее в этом скрипте, то пропускаем загрузку.
 
+
 # Параметры окна
 window_size = 280  # Размер окна (10x увеличение)
 canvas_size = 28  # Размер холста (28x28 пикселей)
