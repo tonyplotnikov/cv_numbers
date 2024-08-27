@@ -31,3 +31,4 @@ model.save('mnist_model.h5')
 
 # Пример загрузки модели (не обязательно сразу использовать)
 # model = load_model('mnist_model.h5')
+#for commit
