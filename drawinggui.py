@@ -31,6 +31,7 @@ def paint(event):
 
 # Функция для предсказания цифры
 def predict_digit():
+    print("Определяю цифру")
     img_array = np.array(image)
     img_array = img_array / 255.0  # Нормализация
     img_array = img_array.reshape(1, 28, 28)  # Преобразование для подачи в модель
